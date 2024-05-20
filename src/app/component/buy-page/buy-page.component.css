@@ -1,0 +1,17 @@
+.container{
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border: solid;
+}
+
+.btn-success{
+    
+    margin-left: 32%;
+}
+
+
+label{
+    color: black;
+}

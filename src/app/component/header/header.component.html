@@ -1,0 +1,16 @@
+
+<div class="container-fluid" style="background-color:black;">
+    <div class="row justify-content-center text-center">
+ <div class="col-md-8  col-lg-6">
+    <div class="header">
+       <h3 style="color:white; text-align: center; font-size:23px;"> Popular E-commerce Products</h3>
+    </div>
+    
+    <i routerLink="/cart-page" class="fas fa-shopping-cart" style="color: white;font-size: 18px; margin-left: 800px;cursor:pointer">&nbsp;{{cartitems}}</i>
+    <form class="d-flex">
+      <span class="text-white">{{loggedUser?.email}} </span> 
+      <button style="margin-left:10%;" routerLink="login" class="btn btn-primary" type="button" (click)="onLogoff()">LogOff</button>
+    </form>
+ </div>
+    </div>
+ </div>
